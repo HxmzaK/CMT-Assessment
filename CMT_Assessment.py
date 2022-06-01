@@ -1,6 +1,6 @@
 #CMT Assessment by Hamza Khalid
 class Square(): #class declaration  
-    def __init__(self,side): #constructor checking for 
+    def __init__(self,side): #constructor checking if the side length is in the right range and rounding the side length to the nearest integer
         side = round(side)
         if side >=1 and side <=10:
             self.side = side
